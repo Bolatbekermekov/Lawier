@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Light theme with purple/indigo accent === */
+:root {
+	--background: 204 21% 100%;
+	--foreground: 224 15% 14%;
+	--border: 220 15% 90%;
+	--input: 220 15% 90%;
+	--primary: 243 75% 59%; /* Фиолетово-индиго #6366f1 */
+	--radius: 16px;
+
+	--card: 0 0% 100%;
+	--card-foreground: 224 15% 14%;
+	--popover: 0 0% 100%;
+	--popover-foreground: 224 15% 14%;
+
+	--secondary: 220 16% 96%;
+	--secondary-foreground: 224 15% 14%;
+	--muted: 220 16% 96%;
+	--muted-foreground: 220 9% 46%;
+	--accent: 220 16% 96%;
+	--accent-foreground: 224 15% 14%;
+
+	--destructive: 0 84% 60%;
+	--destructive-foreground: 0 0% 98%;
+
+	--ring: 243 75% 59%;
+}
+
+.dark {
+	--background: 0 0% 7%;
+	--foreground: 0 0% 100%;
+}
+
+* {
+	@apply border-border;
+}
+
+html,
+body {
+	@apply bg-background text-foreground;
+}
+
+body {
+	font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+}
+
+@layer utilities {
+	.max-container {
+		@apply mx-auto max-w-[1440px];
+	}
+
+	.padding-container {
+		@apply px-6 lg:px-20;
+	}
+
+	.flexCenter {
+		@apply flex items-center justify-center;
+	}
+
+	.flexBetween {
+		@apply flex items-center justify-between;
+	}
+
+	.flexStart {
+		@apply flex items-center justify-start;
+	}
+
+	.flexEnd {
+		@apply flex items-center justify-end;
+	}
+
+	/* typography scales */
+	.regular-64 {
+		@apply text-[64px] font-[400] leading-[120%];
+	}
+
+	.regular-40 {
+		@apply text-[40px] font-[400] leading-[120%];
+	}
+
+	.regular-32 {
+		@apply text-[32px] font-[400];
+	}
+
+	.regular-24 {
+		@apply text-[24px] font-[400];
+	}
+
+	.regular-20 {
+		@apply text-[20px] font-[400];
+	}
+
+	.regular-18 {
+		@apply text-[18px] font-[400];
+	}
+
+	.regular-16 {
+		@apply text-[16px] font-[400];
+	}
+
+	.regular-14 {
+		@apply text-[14px] font-[400];
+	}
+
+	.medium-14 {
+		@apply text-[14px] font-[600];
+	}
+
+	.bold-88 {
+		@apply text-[88px] font-[700] leading-[120%];
+	}
+
+	.bold-64 {
+		@apply text-[64px] font-[700] leading-[120%];
+	}
+
+	.bold-52 {
+		@apply text-[52px] font-[700] leading-[120%];
+	}
+
+	.bold-40 {
+		@apply text-[40px] font-[700] leading-[120%];
+	}
+
+	.bold-32 {
+		@apply text-[32px] font-[700] leading-[120%];
+	}
+
+	.bold-20 {
+		@apply text-[20px] font-[700];
+	}
+}
