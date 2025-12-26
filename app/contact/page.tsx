@@ -8,8 +8,8 @@ const contactInfo = [
 	{
 		icon: Mail,
 		label: 'Эл. почта',
-		value: 'info@lawfirm.kz',
-		link: 'mailto:info@lawfirm.kz',
+		value: 'rze1973@mail.ru',
+		link: 'mailto:rze1973@mail.ru',
 	},
 	{
 		icon: Phone,

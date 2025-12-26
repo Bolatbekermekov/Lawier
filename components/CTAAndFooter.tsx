@@ -169,10 +169,10 @@ export default function CTAAndFooter() {
 									Email
 								</div>
 								<a
-									href='mailto:lawcompany@gmail.com'
+									href='mailto:rze1973@mail.ru'
 									className='mt-1 block text-sm font-medium text-slate-800 transition-colors duration-200 hover:text-[#0B3B95]'
 								>
-									lawcompany@gmail.com
+									rze1973@mail.ru
 								</a>
 							</div>
 						</div>
